@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark z-index">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Carousel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="slide-item carousel-item active">
+                    <div class="d-block w-100"></div>
+                    <div  class="carousel-caption d-none d-md-block text-start bottom-edit">
+                        <h1 style="padding-bottom: 2px;">Example headline.</h1>
+                        <h5 style="font-weight: 400; padding-bottom: 14px;">Some representative placeholder content for the first slide of the carousel.</h5>
+                        <button class="btn btn-primary btn-lg">Sign up today</button>
+                    </div>
+                </div>
+
+                <div class="slide-item carousel-item ">
+                    <div class="d-block w-100"></div>
+                    <div  class="carousel-caption d-none d-md-block text-center bottom-edit">
+                        <h1 style="padding-bottom: 2px;">Another example headline.</h1>
+                        <h5 style="font-weight: 400; padding-bottom: 14px;">Some representative placeholder content for the second slide of the carousel.</h5>
+                        <button class="btn btn-primary btn-lg">Learn more</button>
+                    </div>
+                </div>
+
+                <div class="slide-item carousel-item ">
+                    <div class="d-block w-100"></div>
+                    <div  class="carousel-caption d-none d-md-block text-end bottom-edit">
+                        <h1 style="padding-bottom: 2px;">One more for good measure.</h1>
+                        <h5 style="font-weight: 400; padding-bottom: 14px;">Some representative placeholder content for the third slide of this carousel.</h5>
+                        <button class="btn btn-primary btn-lg">Browse gallery</button>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container border-bottom" style="margin-top: 66px; padding-bottom: 104px;">
+            <div class="row">
+                <div class="col-lg-4 text-center  text-muted ">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                    <h2 style="font-weight: 400;">Heading</h2>
+                    <p class="px-3">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                    <p>
+                        <button class="btn btn-secondary">View details >></button>
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center  text-muted ">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                    <h2 style="font-weight: 400;">Heading</h2>
+                    <p class="px-3">Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                    <p>
+                        <button class="btn btn-secondary">View details >></button>
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center  text-muted ">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                    <h2 style="font-weight: 400;">Heading</h2>
+                    <p class="px-3">And lastly this, the third column of representative placeholder content.</p>
+                    <p>
+                        <button class="btn btn-secondary">View details >></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style=" padding-top: 80px;">
+            <div class="row w-100 justify-content-between m-0 border-bottom" style="padding-bottom: 82px;">
+                <div class="col-lg-7 m-auto mx-0 p-0">
+                    <h2 class="text-body" style="font-weight: 400; font-size: 50px; line-height: 1;">First featurette heading.<span class="text-secondary"> It’ll blow your mind.</span> </h2>
+                    <p class="text-muted fs-5" style="font-weight: 200;">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                </div>
+                <div class="col-lg-5 box d-flex justify-content-center align-items-center">
+                    <span class="box-des text-black-50" style="font-size: 56px;">500x500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style=" padding-top: 80px;">
+            <div class="row w-100 justify-content-between m-0 border-bottom" style="padding-bottom: 82px;">
+                <div class="col-lg-5 box d-flex justify-content-center align-items-center">
+                    <span class="box-des text-black-50" style="font-size: 56px;">500x500</span>
+                </div>
+                <div class="col-lg-7 m-auto mx-0">
+                    <h2 class="text-body" style="font-weight: 400; font-size: 50px; line-height: 1;">Oh yeah, it’s that good.<span class="text-secondary">  See for yourself.</span> </h2>
+                    <p class="text-muted fs-5" style="font-weight: 200;">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style=" padding-top: 80px;">
+            <div class="row w-100 justify-content-between m-0 border-bottom" style="padding-bottom: 82px;">
+                <div class="col-lg-7 m-auto mx-0 p-0">
+                    <h2 class="text-body" style="font-weight: 400; font-size: 50px; line-height: 1;">And lastly, this one.<span class="text-secondary"> Checkmate.</span> </h2>
+                    <p class="text-muted fs-5" style="font-weight: 200;">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+                </div>
+                <div class="col-lg-5 box d-flex justify-content-center align-items-center">
+                    <span class="box-des text-black-50" style="font-size: 56px;">500x500</span>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container " style="padding-bottom: 50px; padding-top: 82px; ">
+
+            <div class=" row justify-content-between">
+                <div class="col-lg-4 d-flex">
+                    <p>© 2017–2021 Company, Inc.</p>
+                    <span class="ps-2">&middot;</span><a class="ps-2" href="#"> Privacy</a>
+                    <span class="ps-2">&middot;</span><a class="ps-2" href="#"> Terms</a>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <a href="#">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
